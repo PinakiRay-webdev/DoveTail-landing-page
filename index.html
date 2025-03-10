@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>landing page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- google fonts  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- tailwind css  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome cdn  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header section  -->
+    <header class="flex justify-between items-center px-4 py-4">
+      <div class="flex gap-2 items-center">
+        <i class="fa-solid fa-bars text-2xl lg:hidden"></i>
+        <img src="assets/logo.svg" alt="" />
+      </div>
+      <nav class="hidden lg:flex items-center gap-6">
+        <a class="list-none font-semibold text-sm" href="#"><li>Product</li></a>
+        <a class="list-none font-semibold text-sm" href="#"
+          ><li>Resources</li></a
+        >
+        <a class="list-none font-semibold text-sm" href="#"
+          ><li>Customers</li></a
+        >
+        <a class="list-none font-semibold text-sm" href="#"
+          ><li>Community</li></a
+        >
+        <a class="list-none font-semibold text-sm" href="#"
+          ><li>Enterprices</li></a
+        >
+        <a class="list-none font-semibold text-sm" href="#"><li>Pricing</li></a>
+      </nav>
+      <div class="buttons flex gap-3 items-center">
+        <button
+          class="ring-2 ring-[#190041] px-6 py-2 rounded font-semibold text-sm"
+        >
+          Login
+        </button>
+        <button
+          class="ring-2 ring-[#190041] bg-[#190041] text-white px-6 py-2 rounded font-semibold text-sm"
+        >
+          Try for free
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="flex flex-col items-center my-12 px-4">
+        <p class="mb-6 text-sm"><span class="font-semibold" >What's new</span> | Faster insights with five new features</p>
+        <h1 class="text-center text-5xl lg:text-7xl font-extrabold whitespace-nowrap">
+          All your <span class="bg-[#C9B9FF] inline-block">customer</span>
+          <br />
+          <span class="bg-[#C9B9FF] inline-block">insights</span> in one place.
+        </h1>
+        <p class="my-10 text-lg" >Analyze customer data. Manage and share insights. Build products people love.</p>
+        <div class="buttons flex gap-3 items-center">
+            <button
+            class="ring-2 ring-[#190041] bg-[#190041] text-white px-6 py-2 rounded font-semibold text-sm"
+          >
+            Try for free
+          </button>
+            <button
+              class="ring-2 ring-[#190041] px-6 py-2 rounded font-semibold text-sm"
+            >
+              Contact sales
+            </button>
+          </div>
+      </section>
+
+      <!-- hero banner  -->
+
+      <section id="hero-banner" class="flex justify-center xl:justify-between items-start my-12 px-4" >
+        <img class="hidden xl:block" src="assets/heroIMG1.svg" alt="">
+        <img class="w-[80%] lg:w-[95%]" src="assets/heroIMG2.svg" alt="">
+        <img class="hidden xl:block" src="assets/heroIMG3.svg" alt="">
+      </section>
+
+      <!-- partnered companies  -->
+       
+      <section id="partner-company" class="grid grid-cols-2 lg:grid-cols-4 gap-y-8 justify-items-center items-center my-6 bg-purple-100 py-4" >
+        <img src="assets/okta.svg" alt="">
+        <img src="assets/atlassian.svg" alt="">
+        <img src="assets/deloitte.svg" alt="">
+        <img src="assets/shopify.svg" alt="">
+      </section>
+    </main>
+  </body>
+</html>
