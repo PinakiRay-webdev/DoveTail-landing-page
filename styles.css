@@ -6,3 +6,16 @@ body{
     background-color: #f5f4f1;
 }
 
+
+@media (max-width: 878px){
+    #subscription > article{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    #subscription > article p{
+        text-align: center;
+        margin-top: 1rem;
+    }
+}
