@@ -24,7 +24,7 @@
   </head>
   <body>
     <!-- header section  -->
-    <header class="flex justify-between items-center px-4 py-4">
+    <header class="flex justify-between items-center px-4 py-3">
       <div class="flex gap-2 items-center">
         <i class="fa-solid fa-bars text-2xl lg:hidden"></i>
         <img src="assets/logo.svg" alt="" />
@@ -61,42 +61,332 @@
 
     <main>
       <section id="hero" class="flex flex-col items-center my-12 px-4">
-        <p class="mb-6 text-sm"><span class="font-semibold" >What's new</span> | Faster insights with five new features</p>
-        <h1 class="text-center text-5xl lg:text-7xl font-extrabold whitespace-nowrap">
+        <p class="mb-6 text-sm">
+          <span class="font-semibold">What's new</span> | Faster insights with
+          five new features
+        </p>
+        <h1
+          class="text-center text-4xl sm:text-5xl lg:text-7xl font-extrabold whitespace-nowrap"
+        >
           All your <span class="bg-[#C9B9FF] inline-block">customer</span>
           <br />
           <span class="bg-[#C9B9FF] inline-block">insights</span> in one place.
         </h1>
-        <p class="my-10 text-lg" >Analyze customer data. Manage and share insights. Build products people love.</p>
+        <p class="sm:my-10 my-5 text-sm sm:text-lg">
+          Analyze customer data. Manage and share insights. Build products
+          people love.
+        </p>
         <div class="buttons flex gap-3 items-center">
-            <button
+          <button
             class="ring-2 ring-[#190041] bg-[#190041] text-white px-6 py-2 rounded font-semibold text-sm"
           >
             Try for free
           </button>
-            <button
-              class="ring-2 ring-[#190041] px-6 py-2 rounded font-semibold text-sm"
-            >
-              Contact sales
-            </button>
-          </div>
+          <button
+            class="ring-2 ring-[#190041] px-6 py-2 rounded font-semibold text-sm"
+          >
+            Contact sales
+          </button>
+        </div>
       </section>
 
       <!-- hero banner  -->
 
-      <section id="hero-banner" class="flex justify-center xl:justify-between items-start my-12 px-4" >
-        <img class="hidden xl:block" src="assets/heroIMG1.svg" alt="">
-        <img class="w-[80%] lg:w-[95%]" src="assets/heroIMG2.svg" alt="">
-        <img class="hidden xl:block" src="assets/heroIMG3.svg" alt="">
+      <section
+        id="hero-banner"
+        class="flex justify-center xl:justify-between items-start my-12 px-4"
+      >
+        <img class="hidden xl:block" src="assets/heroIMG1.svg" alt="" />
+        <img class="w-[80%] lg:w-[95%]" src="assets/heroIMG2.svg" alt="" />
+        <img class="hidden xl:block" src="assets/heroIMG3.svg" alt="" />
       </section>
 
       <!-- partnered companies  -->
-       
-      <section id="partner-company" class="grid grid-cols-2 lg:grid-cols-4 gap-y-8 justify-items-center items-center my-6 bg-purple-100 py-4" >
-        <img src="assets/okta.svg" alt="">
-        <img src="assets/atlassian.svg" alt="">
-        <img src="assets/deloitte.svg" alt="">
-        <img src="assets/shopify.svg" alt="">
+
+      <section
+        id="partner-company"
+        class="grid grid-cols-2 lg:grid-cols-4 gap-y-8 justify-items-center items-center my-6 bg-purple-100 py-4"
+      >
+        <img class="md:w-fit w-24" src="assets/okta.svg" alt="" />
+        <img class="md:w-fit w-24" src="assets/atlassian.svg" alt="" />
+        <img class="md:w-fit w-24" src="assets/deloitte.svg" alt="" />
+        <img class="md:w-fit w-24" src="assets/shopify.svg" alt="" />
+      </section>
+
+      <!-- analysis section  -->
+      <section
+        id="analysis"
+        class="mt-20 sm:mt-24 h-fit flex sm:flex-row lg:gap-0 gap-6 flex-col justify-around"
+      >
+        <article
+          class="w-[90%] text-center sm:text-left mx-auto sm:mx-0 sm:w-[40%]"
+        >
+          <h2
+            class="lg:text-[4rem] text-[3rem] leading-[3rem] lg:leading-[4rem] leading-[2rem] font-semibold text-center"
+          >
+            Speed up your analysis
+          </h2>
+          <p
+            class="hidden sm:block font-semibold text-[0.8rem] md:text-[1rem] opacity-[80%] my-5"
+          >
+            Turn customer data into needs and pain points. Transcribe, analyze,
+            and uncover themes fast.
+          </p>
+          <div class="flex justify-center sm:justify-start gap-4 mt-5 sm:mt-0">
+            <button class="bg-[#190041] text-white px-4 py-1 rounded">
+              Try for free
+            </button>
+            <button>Explore insights</button>
+          </div>
+        </article>
+        <img
+          class="h-[18rem] lg:h-[28rem] object-contain"
+          src="assets/analysis.png"
+          alt=""
+        />
+      </section>
+
+      <!-- research section  -->
+      <section
+        id="research"
+        class="mt-20 sm:mt-24 h-fit flex sm:flex-row lg:gap-0 gap-6 flex-col justify-around"
+      >
+        <article
+          class="w-[90%] sm:order-2 text-center sm:text-left mx-auto sm:mx-0 sm:w-[40%]"
+        >
+          <h2
+            class="lg:text-[4rem] text-[3rem] leading-[3rem] lg:leading-[4rem] leading-[2rem] font-semibold text-center"
+          >
+            Stop repeating research
+          </h2>
+          <p
+            class="hidden sm:block font-semibold text-[0.8rem] md:text-[1rem] opacity-[80%] my-5"
+          >
+            Store and search years of research in one place. Give stakeholders
+            everything they need to make better decisions..
+          </p>
+          <div class="flex justify-center sm:justify-start gap-4 mt-5 sm:mt-0">
+            <button class="bg-[#190041] text-white px-4 py-1 rounded">
+              Try for free
+            </button>
+            <button>Explore scale</button>
+          </div>
+        </article>
+        <img
+          class="h-[18rem] lg:h-[28rem] object-contain"
+          src="assets/research.svg"
+          alt=""
+        />
+      </section>
+
+      <section id="security" class="mt-20 sm:mt-24">
+        <h2
+          class="lg:text-[4rem] text-[3rem] leading-[3rem] lg:leading-[4rem] leading-[2rem] font-semibold text-center"
+        >
+          Backed by speed <br />
+          and security
+        </h2>
+        <article
+          class="w-[90%] mx-auto flex flex-col sm:flex-row gap-6 justify-between mt-6"
+        >
+          <!-- first box  -->
+          <div
+            class="border border-zinc-300 h-fit md:h-[22rem] mx-auto w-[55%] sm:w-[30%] p-2 rounded-md"
+          >
+            <div class="h-[55%]">
+              <img
+                class="w-full h-full object-cover"
+                src="assets/security1.svg"
+                alt="security1"
+              />
+            </div>
+            <div class="mt-6">
+              <h2 class="font-bold">Speed up analysis</h2>
+              <p class="text-sm my-2 hidden md:block">
+                Let customer understanding come to with automated reports about
+                themes and trends across all of your feedback.
+              </p>
+              <button class="font-bold text-sm hidden md:block">
+                Explore automation
+              </button>
+            </div>
+          </div>
+
+          <!-- second box  -->
+          <div
+            class="border border-zinc-300 h-fit md:h-[22rem] mx-auto w-[55%] sm:w-[30%] p-2 rounded-md"
+          >
+            <div class="h-[55%]">
+              <img
+                class="w-full h-full object-cover"
+                src="assets/security2.svg"
+                alt="security2"
+              />
+            </div>
+            <div class="mt-6">
+              <h2 class="font-bold">Speed up analysis</h2>
+              <p class="text-sm my-2 hidden md:block">
+                Let customer understanding come to with automated reports about
+                themes and trends across all of your feedback.
+              </p>
+              <button class="font-bold text-sm hidden md:block">
+                Explore automation
+              </button>
+            </div>
+          </div>
+
+          <!-- third box  -->
+          <div
+            class="border border-zinc-300 h-fit md:h-[22rem] mx-auto w-[55%] sm:w-[30%] p-2 rounded-md"
+          >
+            <div class="h-[55%]">
+              <img
+                class="w-full h-full object-cover"
+                src="assets/security3.svg"
+                alt="security3"
+              />
+            </div>
+            <div class="mt-6">
+              <h2 class="font-bold">Speed up analysis</h2>
+              <p class="text-sm my-2 hidden md:block">
+                Let customer understanding come to with automated reports about
+                themes and trends across all of your feedback.
+              </p>
+              <button class="font-bold text-sm hidden md:block">
+                Explore automation
+              </button>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section id="template" class="mt-20 sm:mt-24">
+        <h2
+          class="lg:text-[4rem] text-[3rem] leading-[3rem] lg:leading-[4rem] leading-[2rem] font-semibold text-center"
+        >
+          Get started with over <br> 100 templates
+        </h2>
+        <article class="mt-6 w-[90%] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          <!-- template 1 -->
+          <div class=" w-[60%] mx-auto sm:w-full h-56 border border-zinc-400 p-2 rounded-md">
+            <header class="h-[70%]">
+              <img
+                class="w-full h-full object-cover rounded"
+                src="assets/template1.svg"
+                alt="template1"
+              />
+            </header>
+            <footer class="flex items-start gap-3 mt-2">
+              <div>
+                <img src="assets/user1.svg" alt="" />
+              </div>
+              <div>
+                <p class="font-semibold text-md">Customer interview tags</p>
+                <p class="text-sm opacity-[80%]">Tag board by Dovetail</p>
+              </div>
+            </footer>
+          </div>
+
+          <!-- template 2 -->
+          <div class=" w-[60%] mx-auto sm:w-full h-56 border border-zinc-400 p-2 rounded-md">
+            <header class="h-[70%]">
+              <img
+                class="w-full h-full object-cover rounded"
+                src="assets/template2.svg"
+                alt="template2"
+              />
+            </header>
+            <footer class="flex items-start gap-3 mt-2">
+              <div>
+                <img src="assets/user1.svg" alt="" />
+              </div>
+              <div>
+                <p class="font-semibold text-md">Customer interview tags</p>
+                <p class="text-sm opacity-[80%]">Tag board by Dovetail</p>
+              </div>
+            </footer>
+          </div>
+
+          <!-- template 3 -->
+          <div class=" w-[60%] mx-auto sm:w-full h-56 border border-zinc-400 p-2 rounded-md">
+            <header class="h-[70%]">
+              <img
+                class="w-full h-full object-cover rounded"
+                src="assets/template3.svg"
+                alt="template3"
+              />
+            </header>
+            <footer class="flex items-start gap-3 mt-2">
+              <div>
+                <img src="assets/user1.svg" alt="" />
+              </div>
+              <div>
+                <p class="font-semibold text-md">Customer interview tags</p>
+                <p class="text-sm opacity-[80%]">Tag board by Dovetail</p>
+              </div>
+            </footer>
+          </div>
+
+          <!-- template 4 -->
+          <div class=" w-[60%] mx-auto sm:w-full h-56 border border-zinc-400 p-2 rounded-md">
+            <header class="h-[70%]">
+              <img
+                class="w-full h-full object-cover rounded"
+                src="assets/template4.svg"
+                alt="template4"
+              />
+            </header>
+            <footer class="flex items-start gap-3 mt-2">
+              <div>
+                <img src="assets/user1.svg" alt="" />
+              </div>
+              <div>
+                <p class="font-semibold text-md">Customer interview tags</p>
+                <p class="text-sm opacity-[80%]">Tag board by Dovetail</p>
+              </div>
+            </footer>
+          </div>
+
+          <!-- template 5 -->
+          <div class=" w-[60%] mx-auto sm:w-full h-56 border border-zinc-400 p-2 rounded-md">
+            <header class="h-[70%]">
+              <img
+                class="w-full h-full object-cover rounded"
+                src="assets/template5.svg"
+                alt="template5"
+              />
+            </header>
+            <footer class="flex items-start gap-3 mt-2">
+              <div>
+                <img src="assets/user1.svg" alt="" />
+              </div>
+              <div>
+                <p class="font-semibold text-md">Customer interview tags</p>
+                <p class="text-sm opacity-[80%]">Tag board by Dovetail</p>
+              </div>
+            </footer>
+          </div>
+
+          <!-- template 6 -->
+          <div class=" w-[60%] mx-auto sm:w-full h-56 border border-zinc-400 p-2 rounded-md">
+            <header class="h-[70%]">
+              <img
+                class="w-full h-full object-cover rounded"
+                src="assets/template6.svg"
+                alt="template6"
+              />
+            </header>
+            <footer class="flex items-start gap-3 mt-2">
+              <div>
+                <img src="assets/user1.svg" alt="" />
+              </div>
+              <div>
+                <p class="font-semibold text-md">Customer interview tags</p>
+                <p class="text-sm opacity-[80%]">Tag board by Dovetail</p>
+              </div>
+            </footer>
+          </div>
+        </article>
       </section>
     </main>
   </body>
