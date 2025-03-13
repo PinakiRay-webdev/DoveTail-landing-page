@@ -19,3 +19,13 @@ body{
         margin-top: 1rem;
     }
 }
+
+@media (max-width: 426px){
+    h2:first-of-type{
+        font-size: 2rem;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+}
